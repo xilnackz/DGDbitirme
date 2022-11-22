@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/modules.xml
+/.idea.DGDbitirme.iml
+# Datasource local storage ignored files
+/../../../../../../../../:\Users\kemal\PRojects\DGDbitirme\.idea\.idea.DGDbitirme\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
