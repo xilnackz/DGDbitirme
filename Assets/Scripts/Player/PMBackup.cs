@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class PlayerMovementTutorial : MonoBehaviour
+public class PMBackup : MonoBehaviour
 {
     private Animator _animator;
     public float cSpeed;
