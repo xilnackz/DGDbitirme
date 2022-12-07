@@ -18,16 +18,19 @@ public class ThirdPersonAnimation : MonoBehaviour
 
         isWalkingHash = Animator.StringToHash("isWalking");
         isRunningHash = Animator.StringToHash("isRunning");
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        bool isGrounded = pmv.isGrounded;
         bool isWalking = animator.GetBool(isWalkingHash);
         bool isRunning = animator.GetBool(isRunningHash);
+        bool isJumping = animator.GetBool("isJumping");
         bool walkPressed = Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d");
         bool runPressed = Input.GetKey("left shift");
-       
+        bool jumpPressed = Input.GetKey(KeyCode.Space);
         if (!isWalking && walkPressed)
         {
             animator.SetBool(isWalkingHash, true);
@@ -45,6 +48,16 @@ public class ThirdPersonAnimation : MonoBehaviour
         if (isRunning && (!walkPressed || !runPressed))
         {
             animator.SetBool(isRunningHash, false);
+        }
+
+        if (jumpPressed && isGrounded)
+        {
+            animator.SetBool("isJumping", true);
+        }
+
+        if (!jumpPressed && !isGrounded)
+        {
+            animator.SetBool("isJumping", false);
         }
     }
 }

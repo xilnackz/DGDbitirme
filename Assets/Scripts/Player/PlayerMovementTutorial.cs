@@ -10,7 +10,7 @@ public class PlayerMovementTutorial : MonoBehaviour
     [Header("Movement")]
     private float moveSpeed;
 
-    private bool isGrounded;
+    public bool isGrounded;
     public float walkSpeed;
     public float sprintSpeed;
 
@@ -34,7 +34,7 @@ public class PlayerMovementTutorial : MonoBehaviour
     public float playerHeight;
     public LayerMask whatIsGround;
     bool grounded;
-
+    
     public Transform orientation;
 
     float horizontalInput;
