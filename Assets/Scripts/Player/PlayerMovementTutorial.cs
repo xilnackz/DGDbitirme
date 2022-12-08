@@ -71,13 +71,13 @@ public class PlayerMovementTutorial : MonoBehaviour
         if (grounded) 
         {
             rb.drag = groundDrag;
-        isGrounded = true;
+            isGrounded = true;
         }
         else
         {   
             rb.drag = 0;
         
-        isGrounded = false;
+            isGrounded = false;
         }
         cSpeed = rb.velocity.magnitude / sprintSpeed;
     }
