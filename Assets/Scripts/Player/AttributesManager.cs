@@ -36,7 +36,7 @@ public class AttributesManager : MonoBehaviour
     {
         if (destroyableObj && health <= 0)
         {
-            //Instantiate(orbSpawn, transform.position, transform.rotation);
+            Instantiate(orbSpawn, transform.position, transform.rotation);
             Destroy(gameObject);
             
         }
