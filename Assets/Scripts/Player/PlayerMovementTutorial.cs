@@ -13,6 +13,7 @@ public class PlayerMovementTutorial : MonoBehaviour
     public bool isGrounded;
     public float walkSpeed;
     public float sprintSpeed;
+    public bool lockMovement;
 
     public float groundDrag;
 
@@ -48,7 +49,8 @@ public class PlayerMovementTutorial : MonoBehaviour
     {
         walking,
         sprinting,
-        air
+        air,
+        attack,
     }
     private void Start()
     {
@@ -113,18 +115,22 @@ public class PlayerMovementTutorial : MonoBehaviour
             moveSpeed = sprintSpeed;
             
         }
-
+        
         else if (grounded)
         {
             state = MovementState.walking;
             moveSpeed = walkSpeed;
             
         }
-        else
+        else  
         {
             state = MovementState.air;
-           
-           
+        }
+
+        if (lockMovement)
+        {
+            state = MovementState.attack;
+            moveSpeed = 0;
         }
     }
 

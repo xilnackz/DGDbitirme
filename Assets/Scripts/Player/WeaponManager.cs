@@ -5,7 +5,7 @@ using UnityEngine;
 public class WeaponManager : MonoBehaviour
 {
     public GameObject weapon;
-
+    public PlayerMovementTutorial pmv;
     public void EnableWeaponCollider(int isEnable)
     {
         if (weapon !=null)
@@ -23,6 +23,18 @@ public class WeaponManager : MonoBehaviour
                     col.enabled = false;
                 }
             }
+        }
+    }
+
+    public void EnableMovement(bool enable)
+    {
+        if (enable == false)
+        {
+            pmv.lockMovement = true;
+        }
+        else
+        {
+            pmv.lockMovement = false;
         }
     }
 }

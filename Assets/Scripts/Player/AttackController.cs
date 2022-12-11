@@ -5,6 +5,7 @@ using UnityEngine;
 public class AttackController : MonoBehaviour
 {
     private Animator anim;
+    public PlayerMovementTutorial pmv;
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -13,9 +14,10 @@ public class AttackController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0) && pmv.isGrounded)
         {
             anim.SetTrigger("Attack");
         }
     }
+    
 }
