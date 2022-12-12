@@ -9,6 +9,11 @@ public class OrbText : MonoBehaviour
     public TextMeshProUGUI orbText;
     private int orbCount;
 
+    private void Awake()
+    {
+        orbText.text = $"Orb: {orbCount}";
+    }
+
     private void OnEnable()
     {
         Orb.OnOrbCollected += IncrementOrbCount;
