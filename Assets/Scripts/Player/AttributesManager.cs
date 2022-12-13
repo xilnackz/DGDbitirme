@@ -7,6 +7,7 @@ public class AttributesManager : MonoBehaviour
 {
     public int health;
     public int attackDmg;
+    public bool isEnemy;
     public bool isPlayer;
     public bool destroyableObj;
     public GameObject orbSpawn;
@@ -35,6 +36,15 @@ public class AttributesManager : MonoBehaviour
     public void DestroyObject()
     {
         if (destroyableObj && health <= 0)
+        {
+            
+            Destroy(gameObject);
+            
+        }
+    }
+    public void DestroyEnemy()
+    {
+        if (isEnemy && health <= 0)
         {
             Instantiate(orbSpawn, transform.position, transform.rotation);
             Destroy(gameObject);
