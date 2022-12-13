@@ -18,7 +18,7 @@ namespace RPG
 
         public override void Enter()
         {
-            _sm.anim.SetBool("isWalk", true);
+           // _sm.anim.SetBool("isWalk", true);
         }
 
         public override void UpdateLogic()
@@ -84,7 +84,7 @@ namespace RPG
 
         public override void Exit()
         {
-            _sm.anim.SetBool("isWalk", false);
+            //_sm.anim.SetBool("isWalk", false);
         }
     }
 }
