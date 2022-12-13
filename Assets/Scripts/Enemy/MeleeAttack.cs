@@ -12,11 +12,12 @@ namespace RPG
 
         public override void Enter()
         {
+            
             attackEnd = false;
             _sm.navMeshAgent.velocity = Vector3.zero;
             _sm.navMeshAgent.isStopped = true;
-            _sm.anim.SetTrigger("attack");
-            _sm.anim.SetBool("attackcombo", true);
+           // _sm.anim.SetTrigger("attack");
+           // _sm.anim.SetBool("attackcombo", true);
         }
 
         public override void UpdateLogic()
@@ -30,7 +31,7 @@ namespace RPG
             
             if (Vector3.Distance(_sm.thisEnemy.position, _sm.player.transform.position) > _sm.attackDistance)
             {
-                _sm.anim.SetBool("attackcombo", false);
+                //_sm.anim.SetBool("attackcombo", false);
                
                 if (attackEnd)
                 {

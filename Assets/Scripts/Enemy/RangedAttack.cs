@@ -19,8 +19,8 @@ namespace RPG
             attackEnd = false;
             _sm.navMeshAgent.velocity = Vector3.zero;
             _sm.navMeshAgent.isStopped = true;
-            _sm.anim.SetTrigger("bowAttackTrigger");
-            _sm.anim.SetBool("bowAttack", true);
+          //  _sm.anim.SetTrigger("bowAttackTrigger");
+           // _sm.anim.SetBool("bowAttack", true);
         }
 
         public override void UpdateLogic()
@@ -33,7 +33,7 @@ namespace RPG
 
             if (Vector3.Distance(_sm.thisEnemy.position, _sm.player.transform.position) > _sm.attackDistance)
             {
-                _sm.anim.SetBool("bowAttack", false);
+               // _sm.anim.SetBool("bowAttack", false);
 
                 if (attackEnd)
                 {
