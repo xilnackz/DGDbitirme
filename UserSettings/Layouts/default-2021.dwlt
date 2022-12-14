@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 185
+  controlID: 18
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 112
+  controlID: 80
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 113
+  controlID: 81
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -506,22 +506,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Assets/Prefabs/Environment
+    - Assets/Assets/Prefabs/Environment/Buildings
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Assets/Prefabs/Environment
+  - Assets/Assets/Prefabs/Environment/Buildings
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "D:\\Unity Dosyalar\u0131\\DGDbitirme"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 127}
-    m_SelectedIDs: 10670000
-    m_LastClickedID: 26384
-    m_ExpandedIDs: 00000000d2650000d465000064660000666600006a660000986600001067000000ca9a3b
+    m_SelectedIDs: 90660000
+    m_LastClickedID: 26256
+    m_ExpandedIDs: 000000000e66000010660000786600007a6600007e6600008e660000e866000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -549,7 +549,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d2650000d4650000
+    m_ExpandedIDs: 000000000e66000010660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -677,23 +677,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 825d0000
-      m_LastClickedID: 23938
+      m_SelectedIDs: 6c5c0000
+      m_LastClickedID: 23660
       m_ExpandedIDs: 1cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Fountain
-        m_OriginalName: Fountain
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -2380
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 4
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -961,9 +961,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 375.16757, y: 7.9948206, z: 629.6767}
+    m_Target: {x: 489.79654, y: -13.457985, z: 1301.0239}
     speed: 2
-    m_Value: {x: 375.16757, y: 7.9948206, z: 629.6767}
+    m_Value: {x: 489.79654, y: -13.457985, z: 1301.0239}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1010,13 +1010,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0015933084, y: -0.9992275, z: 0.045297932, w: 0.0027900578}
+    m_Target: {x: -0.014237897, y: -0.9766498, z: 0.20097494, w: -0.07799437}
     speed: 2
-    m_Value: {x: 0.0016608235, y: -0.9989636, z: 0.04528377, w: 0.0042877854}
+    m_Value: {x: -0.014535552, y: -0.9762771, z: 0.20090096, w: -0.07943854}
   m_Size:
-    m_Target: 31.494911
+    m_Target: 74.5524
     speed: 2
-    m_Value: 18.310995
+    m_Value: 71.34201
   m_Ortho:
     m_Target: 0
     speed: 2
