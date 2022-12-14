@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6358420738446714654}
   - component: {fileID: 8039627288768735419}
   - component: {fileID: 5221511612330417265}
+  - component: {fileID: 5332889855104843106}
   m_Layer: 0
   m_Name: NewsBoard 1
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5332889855104843106
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6014123363506044324}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6576098163478931742, guid: 6a4c4ea1c73ecb34bb0dda70bba966b6, type: 3}

@@ -51,6 +51,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 72eb6556985d09042905f2ee9f0e3ca0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 38e8add4ba7a7724cac15b0b1e1e758b, type: 2}
     - target: {fileID: 919132149155446097, guid: 72eb6556985d09042905f2ee9f0e3ca0, type: 3}
       propertyPath: m_Name
       value: Big_Tree_01 Variant
@@ -91,11 +95,11 @@ LODGroup:
   serializedVersion: 2
   m_LocalReferencePoint: {x: 0.024166107, y: 14.181391, z: -0.99068356}
   m_Size: 28.206993
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
+  m_FadeMode: 1
+  m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.20444264
+  - screenRelativeHeight: 0.09966688
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 7909799909504405551}
