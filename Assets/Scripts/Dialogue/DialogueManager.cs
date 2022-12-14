@@ -89,7 +89,7 @@ namespace Dialogue
             }
         }
 
-        void EndDialogue()
+        public void EndDialogue()
         {
             animator.SetBool("IsOpen", false);
         }

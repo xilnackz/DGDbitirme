@@ -15,5 +15,13 @@ namespace Dialogue
             
         }
 
+        public void OnTriggerExit (Collider other)
+        {
+            if (other.CompareTag("Player"))
+            {
+                FindObjectOfType<DialogueManager>().EndDialogue();
+            }
+            
+        }
     }
 }
