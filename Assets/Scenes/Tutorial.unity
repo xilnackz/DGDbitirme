@@ -1300,7 +1300,7 @@ PrefabInstance:
       objectReference: {fileID: 429226948}
     - target: {fileID: 2339076099013334917, guid: dbcbad1bbbe3712429c7690729c08555, type: 3}
       propertyPath: m_Mass
-      value: 2.6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2339076099013334920, guid: dbcbad1bbbe3712429c7690729c08555, type: 3}
       propertyPath: m_Name
@@ -1308,7 +1308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2339076099013334922, guid: dbcbad1bbbe3712429c7690729c08555, type: 3}
       propertyPath: jumpForce
-      value: 15
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2339076099013334922, guid: dbcbad1bbbe3712429c7690729c08555, type: 3}
       propertyPath: walkSpeed
@@ -5767,7 +5767,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 149765390624211455, guid: 3ac7e7af12442c04a837aaec6d86d4ea, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 149765390624211455, guid: 3ac7e7af12442c04a837aaec6d86d4ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6650,7 +6650,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5946502743949037932, guid: 34eb111fc3f5bf647971e4ae6898d121, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5946502743949037932, guid: 34eb111fc3f5bf647971e4ae6898d121, type: 3}
       propertyPath: m_LocalScale.x
