@@ -8,7 +8,6 @@ public class Orb : MonoBehaviour, ICollectible
     public static event Action OnOrbCollected;
     public void Collect()
     {
-        Debug.Log("orb collected");
         Destroy(gameObject);
         OnOrbCollected?.Invoke();
     }
