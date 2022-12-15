@@ -28,7 +28,7 @@ namespace RPG
 
             _sm.thisEnemy.transform.rotation = Quaternion.Slerp(_sm.thisEnemy.transform.rotation, Quaternion.LookRotation(lookDirection), 2 * Time.deltaTime);
 
-            Debug.Log(attackEnd);
+            
             
             if (Vector3.Distance(_sm.thisEnemy.position, _sm.player.transform.position) > _sm.attackDistance)
             {
