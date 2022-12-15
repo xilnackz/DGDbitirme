@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 1833b15904fc67446b6ce8f22b765224, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028384, g: 0.22571422, b: 0.30692324, a: 1}
+  m_IndirectSpecularColor: {r: 0.50491786, g: 0.48192877, b: 0.8253336, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -659,7 +659,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 241622410}
-  m_LocalRotation: {x: 0.031847604, y: -0.5204571, z: 0.019430129, w: 0.8530725}
+  m_LocalRotation: {x: 0.0318476, y: -0.520457, z: 0.019430127, w: 0.8530725}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5312,7 +5312,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 0.91178805, b: 0.6745283, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -5370,14 +5370,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367454352}
-  m_LocalRotation: {x: 0.10229626, y: 0.87935656, z: -0.41005144, w: 0.21937463}
+  m_LocalRotation: {x: 0.08078056, y: 0.9146374, z: -0.32380033, w: 0.22818048}
   m_LocalPosition: {x: 87.5, y: 179.1, z: 1145}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: 151.984, z: 0}
+  m_LocalEulerAnglesHint: {x: 38.99, y: 151.984, z: 0}
 --- !u!1001 &1387926122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6012,7 +6012,7 @@ Transform:
   - {fileID: 443716883}
   - {fileID: 1165438392}
   m_Father: {fileID: 1873147823}
-  m_RootOrder: 21
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1536526595
 PrefabInstance:
@@ -6354,7 +6354,7 @@ GameObject:
   - component: {fileID: 1638564376}
   - component: {fileID: 1638564375}
   - component: {fileID: 1638564374}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7544,6 +7544,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1531472019}
   - {fileID: 2112521967}
   - {fileID: 678238790}
   - {fileID: 741797725}
@@ -7565,7 +7566,6 @@ Transform:
   - {fileID: 2014873277}
   - {fileID: 356497236}
   - {fileID: 1125912118}
-  - {fileID: 1531472019}
   - {fileID: 674709990}
   - {fileID: 1979928265}
   - {fileID: 1975694765}
