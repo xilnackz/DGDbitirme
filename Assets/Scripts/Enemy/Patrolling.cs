@@ -16,7 +16,7 @@ namespace RPG
         private float viewRadius = 10;
         private float viewAngle = 90f;
         private int currentWayPointIndex = 0;
-        private float patrollingSpeed = 6;
+        private float patrollingSpeed = 32;
 
         public override void Enter()
         { 

@@ -10,7 +10,7 @@ public class AttributesManager : MonoBehaviour
     public bool isEnemy;
     public bool isPlayer;
     public bool destroyableObj;
-    public GameObject orbSpawn;
+    public GameObject Destroyed;
 
     public void Update()
     {
@@ -38,7 +38,7 @@ public class AttributesManager : MonoBehaviour
     {
         if (destroyableObj && health <= 0)
         {
-            
+            Instantiate(Destroyed, transform.position, transform.rotation);
             Destroy(gameObject);
             
         }
@@ -47,7 +47,7 @@ public class AttributesManager : MonoBehaviour
     {
         if (isEnemy && health <= 0)
         {
-            Instantiate(orbSpawn, transform.position , transform.rotation);
+            Instantiate(Destroyed, transform.position, transform.rotation);
             Destroy(gameObject);
             
         }

@@ -25,7 +25,7 @@ namespace RPG
         {
             if (!_sm.peacefull)
             {
-                if (Vector3.Distance(_sm.thisEnemy.position, _sm.player.transform.position) >= 17f)
+                if (Vector3.Distance(_sm.thisEnemy.position, _sm.player.transform.position) >= 50f)
                 {
                     stateMachine.ChangeState(_sm.idleState);
                 }
