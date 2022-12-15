@@ -1084,6 +1084,7 @@ GameObject:
   - component: {fileID: 1076913767}
   - component: {fileID: 1076913769}
   - component: {fileID: 1076913771}
+  - component: {fileID: 1076913772}
   - component: {fileID: 1076913773}
   m_Layer: 6
   m_Name: Player
@@ -1185,7 +1186,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: -0.7, y: -0.02, z: 0}
---- !u!114 &1076913773
+--- !u!114 &1076913772
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1203,6 +1204,20 @@ MonoBehaviour:
   isPlayer: 1
   destroyableObj: 0
   orbSpawn: {fileID: 0}
+--- !u!114 &1076913773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076913765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67e3a16e889fbb49aa33c7ee957b021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon: {fileID: 2648648788761031430}
+  pmv: {fileID: 1076913767}
 --- !u!1 &1095124320
 GameObject:
   m_ObjectHideFlags: 0
@@ -1742,7 +1757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9333334, g: 0.058823533, b: 0.11764707, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1800,9 +1815,9 @@ RectTransform:
   m_Father: {fileID: 1950872029}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -158, y: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 4, y: 0}
   m_SizeDelta: {x: 81.25, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1640291096
@@ -2019,8 +2034,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1950872029}
   - component: {fileID: 1950872030}
+  - component: {fileID: 1950872031}
   m_Layer: 5
-  m_Name: Healt bar
+  m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2044,10 +2060,10 @@ RectTransform:
   m_Father: {fileID: 7728714247561434058}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.8375, y: -0.8373}
-  m_SizeDelta: {x: 323.325, y: 54.5749}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 334.03394, y: -102.45813}
+  m_SizeDelta: {x: 435.3929, y: 73.4911}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1950872030
 MonoBehaviour:
@@ -2096,10 +2112,53 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 100
   m_WholeNumbers: 1
-  m_Value: 0
+  m_Value: 51
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1950872031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950872028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5561d9cbb9ae7f74aa095cd8d1f937fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 1950872030}
+  gradient:
+    serializedVersion: 2
+    key0: {r: 0.9333334, g: 0.050980397, b: 0.10980393, a: 1}
+    key1: {r: 0.9372549, g: 0.89881873, b: 0.09411763, a: 1}
+    key2: {r: 0.045523323, g: 0.8773585, b: 0.08790973, a: 0}
+    key3: {r: 0.045523323, g: 0.8773585, b: 0.08790973, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 19661
+    ctime1: 42598
+    ctime2: 65535
+    ctime3: 65535
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 1
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 2
+  fill: {fileID: 1567273931}
 --- !u!1 &1990382824
 GameObject:
   m_ObjectHideFlags: 0
@@ -4042,9 +4101,9 @@ RectTransform:
   m_Father: {fileID: 7728714247561434058}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -777, y: 454.6}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 204, y: -204}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1913884193276729934
@@ -4731,8 +4790,8 @@ GameObject:
   - component: {fileID: 3425608357735492028}
   - component: {fileID: 1740059835793270297}
   - component: {fileID: 4593980009213924051}
-  - component: {fileID: 4593980009213924052}
   - component: {fileID: 4593980009213924053}
+  - component: {fileID: 4593980009213924054}
   m_Layer: 0
   m_Name: Sword_Temerario
   m_TagString: Untagged
@@ -5835,7 +5894,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &4593980009213924052
+--- !u!65 &4593980009213924053
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2648648788761031430}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0806684, y: 3.1206207, z: 0.25103474}
+  m_Center: {x: 0.00000062232033, y: 2.8909097, z: -0.006776862}
+--- !u!114 &4593980009213924054
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5847,20 +5919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a0896dfd9d929e408b0ff9c0bc50d5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atm: {fileID: 1076913773}
---- !u!65 &4593980009213924053
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2648648788761031430}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.0806684, y: 3.1206207, z: 0.25103474}
-  m_Center: {x: 0.00000062232033, y: 2.8909097, z: -0.006776862}
+  atm: {fileID: 1076913772}
 --- !u!4 &4603892372697310951
 Transform:
   m_ObjectHideFlags: 0
@@ -5968,11 +6027,11 @@ GameObject:
   m_Component:
   - component: {fileID: 5281507863987767210}
   - component: {fileID: 2282062496482303440}
-  - component: {fileID: 5281507863987767214}
   - component: {fileID: 5281507863987767213}
   - component: {fileID: 5281507863987767212}
   - component: {fileID: 5281507863987767211}
   - component: {fileID: 5281507863987767215}
+  - component: {fileID: 5281507863987767217}
   - component: {fileID: 5281507863987767216}
   m_Layer: 0
   m_Name: Enemy
@@ -6371,24 +6430,6 @@ MonoBehaviour:
   arrowSpeed: 20
   refArrowSpawn: {fileID: 0}
   bowAttackAnim: 0
---- !u!114 &5281507863987767214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4755941703303306512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf16dd9c18e4b0f49981a55ceb3a547f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  attackDmg: 5
-  isEnemy: 1
-  isPlayer: 0
-  destroyableObj: 0
-  orbSpawn: {fileID: 1346552214}
 --- !u!136 &5281507863987767215
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6416,6 +6457,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 6485238619386150036}
+--- !u!114 &5281507863987767217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4755941703303306512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf16dd9c18e4b0f49981a55ceb3a547f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  attackDmg: 5
+  isEnemy: 1
+  isPlayer: 0
+  destroyableObj: 0
+  orbSpawn: {fileID: 0}
 --- !u!1 &5293903126166184044
 GameObject:
   m_ObjectHideFlags: 0
@@ -7219,7 +7278,7 @@ GameObject:
   - component: {fileID: 1984433605928600800}
   - component: {fileID: 7965761847857289279}
   - component: {fileID: 7965761847857289281}
-  - component: {fileID: 7965761847857289280}
+  - component: {fileID: 7965761847857289282}
   m_Layer: 0
   m_Name: Enemy Sword
   m_TagString: Untagged
@@ -8482,19 +8541,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7965761847857289280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6485238619386150036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e34546169f4c2554cbda192225b2ce3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  atm: {fileID: 5281507863987767214}
 --- !u!65 &7965761847857289281
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8508,6 +8554,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.035353247, y: 0.010345898, z: 0.13211167}
   m_Center: {x: 0.0020579763, y: -0.00000012604849, z: 0.07566291}
+--- !u!114 &7965761847857289282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485238619386150036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82427e20d8c544342afa748180750880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atm: {fileID: 5281507863987767217}
 --- !u!4 &7998460775801871455
 Transform:
   m_ObjectHideFlags: 0
