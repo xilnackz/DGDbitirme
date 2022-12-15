@@ -16,6 +16,7 @@ public class AttributesManager : MonoBehaviour
     {
         PlayerDead();
         DestroyObject();
+        DestroyEnemy();
     }
 
     public void TakeDamage(int amount)

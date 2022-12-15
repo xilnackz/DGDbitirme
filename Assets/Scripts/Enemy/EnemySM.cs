@@ -10,10 +10,10 @@ namespace RPG
     public class EnemySM : StateMachine
     {
         public Idle idleState;
-         public Chasing chasingState;
-         public MeleeAttack meleeAttack;
+        public Chasing chasingState;
+        public MeleeAttack meleeAttack;
         public Patrolling patrolling;
-         public RangedAttack rangedAttack;
+        public RangedAttack rangedAttack;
 
         //Companents
         public Transform player;
@@ -22,7 +22,7 @@ namespace RPG
         public LayerMask playerMask;
         public LayerMask obstacleMask;
         public Transform[] wayPoints;
-        //public Animator anim;
+        public Animator anim;
         
         //Values
         public float attackDistance = 1f;

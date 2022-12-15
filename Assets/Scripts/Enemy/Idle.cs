@@ -20,6 +20,7 @@ namespace RPG
         
         public override void Enter()
         {
+            _sm.anim.SetBool("isWalk", false);
             timer = startedTime;
             _sm.navMeshAgent.isStopped = true;
             _sm.navMeshAgent.updatePosition = true;

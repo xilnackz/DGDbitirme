@@ -16,8 +16,8 @@ namespace RPG
             attackEnd = false;
             _sm.navMeshAgent.velocity = Vector3.zero;
             _sm.navMeshAgent.isStopped = true;
-           // _sm.anim.SetTrigger("attack");
-           // _sm.anim.SetBool("attackcombo", true);
+            _sm.anim.SetTrigger("attack");
+            _sm.anim.SetBool("attackcombo", true);
         }
 
         public override void UpdateLogic()
@@ -28,10 +28,11 @@ namespace RPG
 
             _sm.thisEnemy.transform.rotation = Quaternion.Slerp(_sm.thisEnemy.transform.rotation, Quaternion.LookRotation(lookDirection), 2 * Time.deltaTime);
 
+            Debug.Log(attackEnd);
             
             if (Vector3.Distance(_sm.thisEnemy.position, _sm.player.transform.position) > _sm.attackDistance)
             {
-                //_sm.anim.SetBool("attackcombo", false);
+                _sm.anim.SetBool("attackcombo", false);
                
                 if (attackEnd)
                 {

@@ -84,6 +84,7 @@ public class PlayerMovementTutorial : MonoBehaviour
             isGrounded = false;
         }
         cSpeed = rb.velocity.magnitude / sprintSpeed;
+        
     }
 
     private void FixedUpdate()
