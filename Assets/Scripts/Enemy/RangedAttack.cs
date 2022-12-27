@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.SceneTemplate;
+//using UnityEditor.SceneTemplate;
 using UnityEngine;
 
 namespace RPG
@@ -16,7 +16,7 @@ namespace RPG
 
         public override void Enter()
         {
-            attackEnd = false;
+         //   attackEnd = false;
             _sm.navMeshAgent.velocity = Vector3.zero;
             _sm.navMeshAgent.isStopped = true;
           //  _sm.anim.SetTrigger("bowAttackTrigger");

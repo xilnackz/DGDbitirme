@@ -27,8 +27,10 @@
       <Path>.idea</Path>
       <Path>.vs</Path>
       <Path>Logs</Path>
+      <Path>MonoBleedingEdge</Path>
       <Path>Temp</Path>
       <Path>UserSettings</Path>
+      <Path>i_Data</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>
