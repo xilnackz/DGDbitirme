@@ -11,6 +11,7 @@ public class AttributesManager : MonoBehaviour
     public bool isPlayer;
     public bool destroyableObj;
     public GameObject Destroyed;
+    
 
     public void Update()
     {
