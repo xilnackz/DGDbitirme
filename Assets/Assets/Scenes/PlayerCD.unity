@@ -1113,6 +1113,8 @@ MonoBehaviour:
   maxYSpeed: 3
   groundDrag: 3.5
   lockMovement: 0
+  groundCheck: {fileID: 709575453}
+  groundDistance: 0.1
   jumpForce: 7
   jumpCooldown: 1
   airMultiplier: 0.4
@@ -1218,7 +1220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orientation: {fileID: 2091277277}
-  playerCam: {fileID: 995955784}
+  playerCam: {fileID: 2064496755}
   anim: {fileID: 543450652172540316}
   dashForce: 15
   dashUpwardForce: 0

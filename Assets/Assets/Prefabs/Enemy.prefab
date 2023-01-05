@@ -1987,6 +1987,7 @@ MonoBehaviour:
   isPlayer: 0
   destroyableObj: 0
   Destroyed: {fileID: 5050869288121948591, guid: e6c3e70b20e244f49a75aeac70f3d3cf, type: 3}
+  anim: {fileID: 7011812497501042681}
 --- !u!114 &4012384580589612441
 MonoBehaviour:
   m_ObjectHideFlags: 0

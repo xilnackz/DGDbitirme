@@ -17,6 +17,8 @@ public class PlayerMovementTutorial : MonoBehaviour
 
     public float groundDrag;
     public bool lockMovement;
+    public Transform groundCheck;
+    public  float groundDistance = 0.1f;
 
     [Header("Jumping")]
     public float jumpForce;
@@ -80,7 +82,8 @@ public class PlayerMovementTutorial : MonoBehaviour
     private void Update()
     {
         // ground check
-        grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
+       // grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
+       grounded = Physics.CheckSphere(groundCheck.position, groundDistance, whatIsGround);
 
         MyInput();
         SpeedControl();
