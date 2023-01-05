@@ -11,7 +11,7 @@ public class AttributesManager : MonoBehaviour
     public bool isPlayer;
     public bool destroyableObj;
     public GameObject Destroyed;
-    
+    public Animator anim;
 
     public void Update()
     {
@@ -23,10 +23,16 @@ public class AttributesManager : MonoBehaviour
     public void TakeDamage(int amount)
     {
         health -= amount;
+        
+        if (isEnemy)
+        {
+            anim.SetTrigger("getHit");
+        }
     }
 
     public void DealDamage(GameObject target)
     {
+        
          var atm = target.GetComponent<AttributesManager>();
 
          if (atm != null)
