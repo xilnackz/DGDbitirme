@@ -1,3 +1,4 @@
+/*
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,102 +6,106 @@ using TMPro;
 
 public class PlayerMovementTutorial : MonoBehaviour
 {
+    private Animator _animator;
+    public float cSpeed;
     [Header("Movement")]
     private float moveSpeed;
-    public float walkSpeed;
-    public float sprintSpeed;
-
-    public float dashSpeed;
+    public float dashspeed;
     public float dashSpeedChangeFactor;
-
     public float maxYSpeed;
 
-    public float groundDrag;
+    public bool isGrounded;
+    public float walkSpeed;
+    public float sprintSpeed;
     public bool lockMovement;
-
-    [Header("Jumping")]
+    public float groundDrag;
     public float jumpForce;
     public float jumpCooldown;
     public float airMultiplier;
-    bool readyToJump;
-    public bool isGrounded; 
-    [Header("Crouching")]
-    public float crouchSpeed;
-    public float crouchYScale;
-    private float startYScale;
-
-    [Header("Keybinds")]
-    public KeyCode jumpKey = KeyCode.Space;
-    public KeyCode sprintKey = KeyCode.LeftShift;
-    public KeyCode crouchKey = KeyCode.LeftControl;
-
-    [Header("Ground Check")]
-    public float playerHeight;
-    public LayerMask whatIsGround;
-    bool grounded;
-
+    bool readyToJump = true;
+    public Transform groundCheck;
+    public  float groundDistance = 0.1f;
+   
     [Header("Slope Handling")]
     public float maxSlopeAngle;
     private RaycastHit slopeHit;
     private bool exitingSlope;
 
+    
 
+    [Header("Keybinds")]
+    public KeyCode jumpKey = KeyCode.Space;
+
+    public KeyCode sprintKey = KeyCode.LeftShift;
+    [Header("Ground Check")]
+    public float playerHeight;
+    public LayerMask whatIsGround;
+    bool grounded;
+    
     public Transform orientation;
+    public bool dashing;
+    private float desiredMoveSpeed;
+    private float lastDesiredMoveSpeed;
+    private MovementState lastState;
+    private bool keepMomentum;
 
     float horizontalInput;
     float verticalInput;
 
+
     Vector3 moveDirection;
 
     Rigidbody rb;
-
     public MovementState state;
     public enum MovementState
     {
         walking,
         sprinting,
-        crouching,
-        dashing,
         air,
-        attack
+        attack,
+        dashing
     }
 
-    public bool dashing;
-
+    
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
 
         readyToJump = true;
-
-        startYScale = transform.localScale.y;
     }
 
     private void Update()
     {
         // ground check
-        grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
-
+       // grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.1f, whatIsGround);
+       grounded = Physics.CheckSphere(groundCheck.position, groundDistance, whatIsGround);
         MyInput();
         SpeedControl();
         StateHandler();
 
         // handle drag
-        if (state == MovementState.walking || state == MovementState.sprinting || state == MovementState.crouching)
+        if (state == MovementState.walking || state == MovementState.sprinting) 
+        {
             rb.drag = groundDrag;
+            isGrounded = true;
+        }
         else
+        {   
             rb.drag = 0;
+        
+            isGrounded = false;
+        }
+        cSpeed = rb.velocity.magnitude / sprintSpeed;
 
         if (grounded)
         {
-            isGrounded = true;
+            isGrounded = true;   
         }
         else
         {
             isGrounded = false;
         }
-
         
     }
 
@@ -115,80 +120,47 @@ public class PlayerMovementTutorial : MonoBehaviour
         verticalInput = Input.GetAxisRaw("Vertical");
 
         // when to jump
-        if (Input.GetKey(jumpKey) && readyToJump && grounded)
+        if(Input.GetKey(jumpKey) && readyToJump && grounded)
         {
             readyToJump = false;
 
             Jump();
+            
 
             Invoke(nameof(ResetJump), jumpCooldown);
         }
-
-        // start crouch
-        if (Input.GetKeyDown(crouchKey))
-        {
-            transform.localScale = new Vector3(transform.localScale.x, crouchYScale, transform.localScale.z);
-            rb.AddForce(Vector3.down * 5f, ForceMode.Impulse);
-        }
-
-        // stop crouch
-        if (Input.GetKeyUp(crouchKey))
-        {
-            transform.localScale = new Vector3(transform.localScale.x, startYScale, transform.localScale.z);
-        }
     }
 
-    private float desiredMoveSpeed;
-    private float lastDesiredMoveSpeed;
-    private MovementState lastState;
-    private bool keepMomentum;
     private void StateHandler()
     {
-        // Mode - Dashing
-        if (dashing && grounded)
+        //sprinting
+        if (dashing)
         {
             state = MovementState.dashing;
-            desiredMoveSpeed = dashSpeed;
+            desiredMoveSpeed = dashspeed;
             speedChangeFactor = dashSpeedChangeFactor;
         }
-
-        // Mode - Crouching
-        else if (Input.GetKey(crouchKey))
-        {
-            state = MovementState.crouching;
-            desiredMoveSpeed = crouchSpeed;
-        }
-
-        // Mode - Sprinting
         else if (grounded && Input.GetKey(sprintKey))
         {
             state = MovementState.sprinting;
             desiredMoveSpeed = sprintSpeed;
+            
         }
-
-        // Mode - Walking
+        
         else if (grounded)
         {
             state = MovementState.walking;
             desiredMoveSpeed = walkSpeed;
+            
         }
-
-        // Mode - Air
-        else
+        else  
         {
             state = MovementState.air;
-
             if (desiredMoveSpeed < sprintSpeed)
                 desiredMoveSpeed = walkSpeed;
             else
                 desiredMoveSpeed = sprintSpeed;
         }
-
-        if (lockMovement)
-        {
-            state = MovementState.attack;
-            desiredMoveSpeed = 0f;
-        } 
 
         bool desiredMoveSpeedHasChanged = desiredMoveSpeed != lastDesiredMoveSpeed;
         if (lastState == MovementState.dashing) keepMomentum = true;
@@ -209,9 +181,16 @@ public class PlayerMovementTutorial : MonoBehaviour
 
         lastDesiredMoveSpeed = desiredMoveSpeed;
         lastState = state;
+
+
+        if (lockMovement)
+        {
+            state = MovementState.attack;
+            moveSpeed = 0;
+        }
     }
 
-    private float speedChangeFactor;
+     private float speedChangeFactor;
     private IEnumerator SmoothlyLerpMoveSpeed()
     {
         // smoothly lerp movementSpeed to desired value
@@ -238,11 +217,6 @@ public class PlayerMovementTutorial : MonoBehaviour
     private void MovePlayer()
     {
         if (state == MovementState.dashing) return;
-
-        // calculate movement direction
-        moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
-
-        // on slope
         if (OnSlope() && !exitingSlope)
         {
             rb.AddForce(GetSlopeMoveDirection() * moveSpeed * 20f, ForceMode.Force);
@@ -250,16 +224,21 @@ public class PlayerMovementTutorial : MonoBehaviour
             if (rb.velocity.y > 0)
                 rb.AddForce(Vector3.down * 80f, ForceMode.Force);
         }
+        
+        // calculate movement direction
+        moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
         // on ground
-        else if (grounded)
+        if(grounded){
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
+        }
 
         // in air
-        else if (!grounded)
+        else if(!grounded){
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
-
-        // turn gravity off while on slope
+            
+        }
+        
         rb.useGravity = !OnSlope();
     }
 
@@ -285,7 +264,7 @@ public class PlayerMovementTutorial : MonoBehaviour
             }
         }
 
-        // limit y vel
+         // limit y vel
         if (maxYSpeed != 0 && rb.velocity.y > maxYSpeed)
             rb.velocity = new Vector3(rb.velocity.x, maxYSpeed, rb.velocity.z);
     }
@@ -306,9 +285,10 @@ public class PlayerMovementTutorial : MonoBehaviour
         exitingSlope = false;
     }
 
+    
     private bool OnSlope()
     {
-        if (Physics.Raycast(transform.position, Vector3.down, out slopeHit, playerHeight * 0.5f + 0.3f))
+        if(Physics.Raycast(transform.position, Vector3.down, out slopeHit, playerHeight * 0.5f + 0.3f))
         {
             float angle = Vector3.Angle(Vector3.up, slopeHit.normal);
             return angle < maxSlopeAngle && angle != 0;
@@ -321,11 +301,5 @@ public class PlayerMovementTutorial : MonoBehaviour
     {
         return Vector3.ProjectOnPlane(moveDirection, slopeHit.normal).normalized;
     }
-
-   
-    public static float Round(float value, int digits)
-    {
-        float mult = Mathf.Pow(10.0f, (float)digits);
-        return Mathf.Round(value * mult) / mult;
-    }
 }
+*/
