@@ -18,6 +18,14 @@ public class AttackController : MonoBehaviour
         {
             anim.SetTrigger("Attack");
         }
+
+        if (Input.GetKeyDown(KeyCode.Q) && pmv.isGrounded)
+        {
+            anim.SetTrigger("Skill1");
+        }
+        
     }
+
+
     
 }
