@@ -17,7 +17,7 @@ MonoBehaviour:
     x: 0
     y: 43
     width: 1920
-    height: 997
+    height: 989
   m_ShowMode: 4
   m_Title: vfxgraph_slash
   m_RootView: {fileID: 3}
@@ -71,7 +71,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1920
-    height: 997
+    height: 989
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 977
+    y: 969
     width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -1072,7 +1072,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Assets/Shaders
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Users\kemal\Bitirme Projesi\DGDbitirme
+  m_LastProjectPath: "D:\\Unity Dosyalar\u0131\\DGDbitirme"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -1151,7 +1151,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
