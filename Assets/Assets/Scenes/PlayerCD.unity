@@ -1874,6 +1874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   temerario: {fileID: 919132148433322786}
   dura: {fileID: 6629353787205992363}
+  cross: {fileID: 6356701458968192458}
   whichcharon: 1
 --- !u!1 &1095124320
 GameObject:
@@ -9015,6 +9016,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bcbcc90720930a4cbf473b0495661c0, type: 3}
+--- !u!1 &6356701458968192458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9034183125700287774, guid: 6bcbcc90720930a4cbf473b0495661c0, type: 3}
+  m_PrefabInstance: {fileID: 6356701458968192457}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6390725106282407046
 Transform:
   m_ObjectHideFlags: 0
