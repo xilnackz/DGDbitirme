@@ -13525,7 +13525,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1558684557}
-  m_LocalRotation: {x: 0.049255237, y: 0.6751089, z: -0.045261465, w: 0.73467904}
+  m_LocalRotation: {x: 0.049255237, y: 0.67510897, z: -0.045261472, w: 0.73467904}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -17199,6 +17199,6 @@ MonoBehaviour:
   attackDmg: 0
   isEnemy: 0
   isPlayer: 0
-  destroyableObj: 0
+  destroyableObj: 1
   Destroyed: {fileID: 950483972}
   anim: {fileID: 0}
