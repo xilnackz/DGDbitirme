@@ -558,7 +558,7 @@ Animator:
   m_GameObject: {fileID: 893210819087541370}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cbfb93e29eccd62459b76b6aa14ae9c6, type: 2}
+  m_Controller: {fileID: 9100000, guid: 523a10c496a683f47bcf76cb0b902787, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -607,6 +607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 2622747936070800478}
+  _skill1: {fileID: 0}
   pmv: {fileID: 0}
 --- !u!1 &1065758448903958622
 GameObject:
