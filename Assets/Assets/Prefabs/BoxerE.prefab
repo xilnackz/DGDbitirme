@@ -2416,7 +2416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  attackDmg: 5
+  attackDmg: 4
   isEnemy: 1
   isPlayer: 0
   destroyableObj: 0
@@ -2477,8 +2477,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   anim: {fileID: 8350050176077181462}
-  attackDistance: 1
-  enemyDetectedRadius: 15
+  attackDistance: 4
+  enemyDetectedRadius: 50
   getDamage: 0
   peacefull: 0
   ranged: 0

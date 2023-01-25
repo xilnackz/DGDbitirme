@@ -25,11 +25,17 @@ public class PSpawner : MonoBehaviour
         {
             anim.SetTrigger("Spw");
         
-           Instantiate(platform,spawner.transform.position,Quaternion.identity); 
+           StartCoroutine(waittp());
            
 
         }
 
         
+    }
+
+    IEnumerator waittp()
+    {
+        yield return new WaitForSecondsRealtime(0.8f);
+        Instantiate(platform,spawner.transform.position,Quaternion.identity);
     }
 }

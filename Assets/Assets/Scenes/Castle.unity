@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 3e03d2c623831bc47b9b56c0797489ad, type: 2}
 --- !u!1001 &1068487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1511,6 +1511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &26676636 stripped
@@ -2472,6 +2476,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &35888858 stripped
@@ -2656,6 +2664,10 @@ PrefabInstance:
     - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
       propertyPath: m_Name
       value: mazeground (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
@@ -2874,6 +2886,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -3616,6 +3632,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &60909968 stripped
@@ -3685,6 +3705,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -4086,6 +4110,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -4543,6 +4571,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -5184,6 +5216,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &107411078 stripped
@@ -5694,6 +5730,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -7516,6 +7556,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &160261181 stripped
@@ -7829,6 +7873,10 @@ PrefabInstance:
     - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
       propertyPath: m_Name
       value: mazeground (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
@@ -8347,6 +8395,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &175585034 stripped
@@ -8435,6 +8487,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &177967118 stripped
@@ -8505,6 +8561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &179211544 stripped
@@ -8574,6 +8634,10 @@ PrefabInstance:
     - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
       propertyPath: m_Name
       value: mazeground (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
@@ -9008,6 +9072,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -9987,6 +10055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &201984103 stripped
@@ -10416,6 +10488,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -11142,6 +11218,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &220141418 stripped
@@ -11419,6 +11499,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mazeground (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
 --- !u!4 &223671292 stripped
@@ -11489,6 +11573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &225287284 stripped
@@ -11558,6 +11646,10 @@ PrefabInstance:
     - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
       propertyPath: m_Name
       value: mazeground (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
@@ -12018,6 +12110,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -12710,6 +12806,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &248060604 stripped
@@ -12944,6 +13044,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &249621847 stripped
@@ -13049,6 +13153,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -13730,6 +13838,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &276638161 stripped
@@ -14219,6 +14331,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -14750,6 +14866,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &298825081 stripped
@@ -14837,6 +14957,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -15092,6 +15216,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &304892800 stripped
@@ -15165,6 +15293,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (113)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -15750,6 +15882,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -16520,6 +16656,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -17566,6 +17706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &357962953 stripped
@@ -18190,6 +18334,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &380472487 stripped
@@ -18609,6 +18757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &397017571 stripped
@@ -18830,6 +18982,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -19073,6 +19229,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -19620,6 +19780,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &425336574 stripped
@@ -19727,6 +19891,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -19871,6 +20039,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -20842,6 +21014,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &459183184 stripped
@@ -21185,6 +21361,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -23515,6 +23695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mazeground (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
 --- !u!4 &511649463 stripped
@@ -23857,6 +24041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &522823765 stripped
@@ -23969,6 +24157,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &529846047 stripped
@@ -24056,6 +24248,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -24834,6 +25030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mazeground (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
 --- !u!4 &551217933 stripped
@@ -25327,6 +25527,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &564146874 stripped
@@ -25400,6 +25604,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -26834,6 +27042,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &585255113 stripped
@@ -27169,6 +27381,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &592380738 stripped
@@ -27238,6 +27454,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -27491,6 +27711,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -28422,6 +28646,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &629562950 stripped
@@ -28670,6 +28898,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -28974,6 +29206,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -29876,6 +30112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &656644996 stripped
@@ -30023,6 +30263,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -30189,6 +30433,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -30795,6 +31043,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mazeground (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
 --- !u!4 &673225827 stripped
@@ -30947,6 +31199,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -32043,6 +32299,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &693090458 stripped
@@ -32388,6 +32648,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &699809285 stripped
@@ -32475,6 +32739,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -32627,6 +32895,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -34209,6 +34481,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &734903384 stripped
@@ -34296,6 +34572,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -34553,6 +34833,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -35274,6 +35558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &750722988 stripped
@@ -35417,6 +35705,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -35874,6 +36166,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &761438620 stripped
@@ -36154,6 +36450,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -36771,6 +37071,10 @@ PrefabInstance:
     - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
       propertyPath: m_Name
       value: mazeground (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
@@ -38160,6 +38464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &804479984 stripped
@@ -38229,6 +38537,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -38377,6 +38689,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -39082,6 +39398,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -40057,6 +40377,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &840703741 stripped
@@ -40892,6 +41216,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &861699713 stripped
@@ -41097,6 +41425,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &873761125 stripped
@@ -41192,6 +41524,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -42077,6 +42413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &880374370 stripped
@@ -42255,6 +42595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &882931771 stripped
@@ -42328,6 +42672,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -42494,6 +42842,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -42873,6 +43225,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &893569844 stripped
@@ -43169,6 +43525,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &898893858 stripped
@@ -43435,6 +43795,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -43790,6 +44154,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -44262,6 +44630,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -45410,6 +45782,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &940968139 stripped
@@ -45497,6 +45873,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -45645,6 +46025,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -46018,6 +46402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &955736346 stripped
@@ -46091,6 +46479,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -46726,6 +47118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &971526754 stripped
@@ -47118,6 +47514,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &978987359 stripped
@@ -47367,6 +47767,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &984668757 stripped
@@ -47459,6 +47863,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -48044,6 +48452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &997081218 stripped
@@ -48356,6 +48768,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -49069,6 +49485,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -49982,6 +50402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1032639310 stripped
@@ -50274,6 +50698,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -50796,6 +51224,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -51433,6 +51865,10 @@ PrefabInstance:
     - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
       propertyPath: m_Name
       value: mazeground (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
@@ -52489,6 +52925,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1074091035 stripped
@@ -53372,6 +53812,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1091153502 stripped
@@ -53888,6 +54332,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1102656536 stripped
@@ -54378,6 +54826,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1111195918 stripped
@@ -54447,6 +54899,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -54616,6 +55072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1118640161 stripped
@@ -54763,6 +55223,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -55113,6 +55577,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1131943949 stripped
@@ -55388,6 +55856,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -55841,6 +56313,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1155602951 stripped
@@ -56269,6 +56745,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -56765,6 +57245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mazeground (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
 --- !u!4 &1176185313 stripped
@@ -56983,6 +57467,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1177507116 stripped
@@ -57060,6 +57548,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -57226,6 +57718,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -57419,6 +57915,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -57724,6 +58224,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -58039,6 +58543,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mazeground (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
 --- !u!4 &1198993347 stripped
@@ -58182,6 +58690,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -58368,6 +58880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1204149636 stripped
@@ -58511,6 +59027,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -59112,6 +59632,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -59717,6 +60241,10 @@ PrefabInstance:
     - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
       propertyPath: m_Name
       value: mazeground (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
@@ -60741,6 +61269,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1260020805 stripped
@@ -60833,6 +61365,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1260321275 stripped
@@ -60921,6 +61457,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1261436766 stripped
@@ -60994,6 +61534,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -61480,6 +62024,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1271117270 stripped
@@ -61944,6 +62492,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1282557412 stripped
@@ -62018,6 +62570,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1283538236 stripped
@@ -62091,6 +62647,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -62691,6 +63251,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -64628,6 +65192,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1340554681 stripped
@@ -65014,6 +65582,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1350665391 stripped
@@ -65087,6 +65659,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -65433,6 +66009,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1353458176 stripped
@@ -65744,6 +66324,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -67187,6 +67771,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1396365839 stripped
@@ -67850,6 +68438,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -69336,6 +69928,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mazeground (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
 --- !u!4 &1444509800 stripped
@@ -70010,6 +70606,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1459381621 stripped
@@ -70183,6 +70783,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -71281,6 +71885,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1481845026 stripped
@@ -72056,6 +72664,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1492394182 stripped
@@ -72829,6 +73441,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1512217882 stripped
@@ -73269,6 +73885,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -73933,6 +74553,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -74783,6 +75407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1552579037 stripped
@@ -75016,6 +75644,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -75898,6 +76530,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -77186,6 +77822,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1609959359 stripped
@@ -78435,6 +79075,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1640799442 stripped
@@ -78778,6 +79422,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1647291582 stripped
@@ -78865,6 +79513,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -79570,6 +80222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1671866065 stripped
@@ -79797,6 +80453,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -80530,6 +81190,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1698247323 stripped
@@ -80722,6 +81386,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -81271,6 +81939,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -82005,6 +82677,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1722440384 stripped
@@ -82646,6 +83322,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1731240451 stripped
@@ -82738,6 +83418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1733884418 stripped
@@ -82811,6 +83495,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -82904,6 +83592,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1734157404 stripped
@@ -82991,6 +83683,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -84022,6 +84718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1764326763 stripped
@@ -84314,6 +85014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1770559556 stripped
@@ -84383,6 +85087,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -84457,6 +85165,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -84893,6 +85605,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -85590,6 +86306,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1790568678 stripped
@@ -85829,6 +86549,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -86113,6 +86837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1803084724 stripped
@@ -86279,6 +87007,10 @@ PrefabInstance:
     - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
       propertyPath: m_Name
       value: mazeground (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
@@ -86681,6 +87413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1824150891 stripped
@@ -86857,6 +87593,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1826924160 stripped
@@ -87026,6 +87766,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (116)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -87586,6 +88330,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1837810402 stripped
@@ -87738,6 +88486,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -87900,6 +88652,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -88979,6 +89735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mazeground (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
 --- !u!4 &1876219062 stripped
@@ -90041,6 +90801,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mazeground (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
 --- !u!4 &1896021740 stripped
@@ -90511,6 +91275,10 @@ PrefabInstance:
     - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
       propertyPath: m_Name
       value: mazeground (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
@@ -91710,6 +92478,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1915949928 stripped
@@ -91880,6 +92652,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1917345026 stripped
@@ -91967,6 +92743,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -92157,6 +92937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1923702189 stripped
@@ -92299,6 +93083,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -92444,6 +93232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1929328246 stripped
@@ -92513,6 +93305,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -92671,6 +93467,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -92889,6 +93689,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -93113,6 +93917,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1938529815 stripped
@@ -93274,6 +94082,10 @@ PrefabInstance:
     - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
       propertyPath: m_Name
       value: mazeground (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
@@ -93592,6 +94404,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -93952,6 +94768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1959844289 stripped
@@ -94030,6 +94850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1961256995 stripped
@@ -94099,6 +94923,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (105)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -95131,6 +95959,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &1983736830 stripped
@@ -95457,6 +96289,10 @@ PrefabInstance:
     - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
       propertyPath: m_Name
       value: mazeground (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
@@ -95795,6 +96631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &2004031648 stripped
@@ -96017,6 +96857,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &2014109511 stripped
@@ -96183,6 +97027,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -96636,6 +97484,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -98488,6 +99340,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mazeground (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
 --- !u!4 &2058838469 stripped
@@ -100009,6 +100865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &2093336707 stripped
@@ -100986,6 +101846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &2109403472 stripped
@@ -101296,6 +102160,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &2115476677 stripped
@@ -101369,6 +102237,10 @@ PrefabInstance:
     - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
       propertyPath: m_Name
       value: mazeground (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
@@ -101715,6 +102587,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &2119277339 stripped
@@ -101894,6 +102770,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -102091,6 +102971,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -102377,6 +103261,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &2133110451 stripped
@@ -102539,6 +103427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MazeGround (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
 --- !u!4 &2138464939 stripped
@@ -102682,6 +103574,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
       propertyPath: m_Name
       value: MazeGround (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -102884,6 +103780,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mazeground
       objectReference: {fileID: 0}
+    - target: {fileID: 4049375555778349027, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93de1155541b10d4bb024b77b668c027, type: 3}
 --- !u!4 &2290327829108017433 stripped
@@ -103075,6 +103975,10 @@ PrefabInstance:
     - target: {fileID: 6863288921020332540, guid: 3e22053219d5d8645a2926b91159e1cf, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6863288921020332540, guid: 3e22053219d5d8645a2926b91159e1cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e22053219d5d8645a2926b91159e1cf, type: 3}
