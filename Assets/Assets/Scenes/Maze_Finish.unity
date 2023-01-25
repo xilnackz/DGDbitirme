@@ -884,6 +884,25 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7258436418203940108, guid: f09e0285f2d6a524688b6319cac10466, type: 3}
   m_PrefabInstance: {fileID: 19096214}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &20132620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: eaa9c383a51beea4f9260d88d7b184d7, type: 3}
+  m_PrefabInstance: {fileID: 1777276107}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &20132624
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20132620}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8678823145569952518, guid: eaa9c383a51beea4f9260d88d7b184d7, type: 3}
 --- !u!1001 &24137196
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5341,6 +5360,14 @@ PrefabInstance:
       value: BoxerE
       objectReference: {fileID: 0}
     - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
       propertyPath: wayPoints.Array.data[0]
       value: 
       objectReference: {fileID: 282291791}
@@ -8544,6 +8571,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
       propertyPath: wayPoints.Array.data[0]
       value: 
       objectReference: {fileID: 898670600}
@@ -8880,6 +8915,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 382496508}
     - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
       propertyPath: wayPoints.Array.data[0]
       value: 
       objectReference: {fileID: 170513709}
@@ -8947,6 +8986,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
   m_PrefabInstance: {fileID: 270894931}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &242919090 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: eaa9c383a51beea4f9260d88d7b184d7, type: 3}
+  m_PrefabInstance: {fileID: 647106949}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &242919094
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242919090}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8678823145569952518, guid: eaa9c383a51beea4f9260d88d7b184d7, type: 3}
 --- !u!1 &243930046
 GameObject:
   m_ObjectHideFlags: 0
@@ -10140,6 +10198,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
       propertyPath: wayPoints.Array.data[0]
       value: 
       objectReference: {fileID: 128287455}
@@ -10276,6 +10342,14 @@ PrefabInstance:
     - target: {fileID: 8350050176077181457, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
       propertyPath: m_Name
       value: BoxerE
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
       propertyPath: wayPoints.Array.data[0]
@@ -12727,6 +12801,14 @@ PrefabInstance:
       value: BoxerE
       objectReference: {fileID: 0}
     - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
       propertyPath: wayPoints.Array.data[0]
       value: 
       objectReference: {fileID: 1838151699}
@@ -14649,6 +14731,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: torusbosluk
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2fd24c5391b2e7648967719d594ab75b, type: 3}
+      propertyPath: m_TagString
+      value: Puzzle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fd24c5391b2e7648967719d594ab75b, type: 3}
 --- !u!4 &430064353 stripped
@@ -15643,6 +15729,54 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.004368, y: 0, z: 4}
   m_Center: {x: -0.039446473, y: -0.000005722046, z: 2}
+--- !u!1 &469490566 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d214d4cebc07cfd4995c177818a8ff17, type: 3}
+  m_PrefabInstance: {fileID: 1345589444}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &469490570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469490566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55a6ea7d2e9756a4091a072bc5886fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Obje: {fileID: 1285217941}
+--- !u!54 &469490571
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469490566}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &469490572
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469490566}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8803937527578110353, guid: d214d4cebc07cfd4995c177818a8ff17, type: 3}
 --- !u!1001 &469565584
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24130,6 +24264,14 @@ PrefabInstance:
       value: BoxerE
       objectReference: {fileID: 0}
     - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
       propertyPath: wayPoints.Array.data[0]
       value: 
       objectReference: {fileID: 398117698}
@@ -24362,6 +24504,14 @@ PrefabInstance:
     - target: {fileID: 4845960350982934913, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
       propertyPath: wayPoints.Array.data[0]
@@ -24730,6 +24880,14 @@ PrefabInstance:
     - target: {fileID: 4845960350982934913, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
       propertyPath: wayPoints.Array.data[0]
@@ -30744,6 +30902,14 @@ PrefabInstance:
       value: BoxerE
       objectReference: {fileID: 0}
     - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
       propertyPath: wayPoints.Array.data[0]
       value: 
       objectReference: {fileID: 1985444837}
@@ -36614,6 +36780,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
       propertyPath: wayPoints.Array.data[0]
       value: 
       objectReference: {fileID: 936421858}
@@ -37693,6 +37867,14 @@ PrefabInstance:
       value: BoxerE
       objectReference: {fileID: 0}
     - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
       propertyPath: wayPoints.Array.data[0]
       value: 
       objectReference: {fileID: 1572601947}
@@ -38189,6 +38371,14 @@ PrefabInstance:
     - target: {fileID: 4845960350982934913, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
       propertyPath: wayPoints.Array.data[0]
@@ -45947,6 +46137,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
       propertyPath: wayPoints.Array.data[0]
       value: 
       objectReference: {fileID: 177469750}
@@ -47702,6 +47900,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 382496508}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
       propertyPath: wayPoints.Array.data[0]
       value: 
@@ -51938,6 +52140,14 @@ PrefabInstance:
       value: BoxerE
       objectReference: {fileID: 0}
     - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
       propertyPath: wayPoints.Array.data[0]
       value: 
       objectReference: {fileID: 970281374}
@@ -53168,6 +53378,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 16.000006, y: 7.1, z: 1.0000002}
   m_Center: {x: 7.1054274e-15, y: 3.549998, z: -0.49975598}
+--- !u!1 &1683564089 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2fd24c5391b2e7648967719d594ab75b, type: 3}
+  m_PrefabInstance: {fileID: 423080507}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1683564093
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683564089}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2212009239438826721, guid: 2fd24c5391b2e7648967719d594ab75b, type: 3}
 --- !u!4 &1683882323 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8066217256545005494, guid: f09e0285f2d6a524688b6319cac10466, type: 3}
@@ -54956,6 +55185,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191418845281602352, guid: 33be12e16522a344f86059efdb1a9e49, type: 3}
       propertyPath: wayPoints.Array.data[0]
       value: 
       objectReference: {fileID: 1246032550}
@@ -56285,6 +56522,14 @@ PrefabInstance:
       value: BoxerE
       objectReference: {fileID: 0}
     - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
       propertyPath: wayPoints.Array.data[0]
       value: 
       objectReference: {fileID: 49713180}
@@ -56383,6 +56628,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Obje: {fileID: 335400263}
+--- !u!54 &1764590967
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764590962}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1764590968
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764590962}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1766472010 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dd160c77a0dd5af4f8bd8ecb3c69984d, type: 3}
@@ -56843,6 +57117,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: eaa9c383a51beea4f9260d88d7b184d7, type: 3}
       propertyPath: m_Name
       value: karebosluk (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: eaa9c383a51beea4f9260d88d7b184d7, type: 3}
+      propertyPath: m_TagString
+      value: Puzzle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eaa9c383a51beea4f9260d88d7b184d7, type: 3}
@@ -57447,6 +57725,14 @@ PrefabInstance:
     - target: {fileID: 8350050176077181457, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
       propertyPath: m_Name
       value: BoxerE
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
       propertyPath: wayPoints.Array.data[0]
@@ -58890,6 +59176,53 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7258436418203940108, guid: f09e0285f2d6a524688b6319cac10466, type: 3}
   m_PrefabInstance: {fileID: 1838500811}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1839866237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5238a94fa4323734d98f6a1f85f19d31, type: 3}
+  m_PrefabInstance: {fileID: 1117712297}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1839866241
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839866237}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 1.9999999}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1839866242
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839866237}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1839866243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839866237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55a6ea7d2e9756a4091a072bc5886fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Obje: {fileID: 1714465455}
 --- !u!4 &1844099617 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8066217256545005494, guid: f09e0285f2d6a524688b6319cac10466, type: 3}
@@ -65643,6 +65976,14 @@ PrefabInstance:
     - target: {fileID: 8350050176077181457, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
       propertyPath: m_Name
       value: BoxerE
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 382496508}
+    - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
+      propertyPath: enemyDetectedRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8350050176077181458, guid: 992b54d6af8181f42bb650adfb92618f, type: 3}
       propertyPath: wayPoints.Array.data[0]
